@@ -1,7 +1,7 @@
 # Semver post upgrade for Renovate
 
 A small script to increase the minor patch or add a defined description to `semver.txt`.
-It should run after a Renovate update cycle.
+It should run after a Renovate dependency update.
 This tool is written for my dev team at work.
 
 ## Getting started
