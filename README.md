@@ -23,6 +23,7 @@ The following setup is required:
 ## Developing
 
 Just edit the python script for your purpose.
+Use ruff (with default settings) to lint and format the script file.
 
 ### Publishing
 
@@ -52,3 +53,4 @@ An example how to setup this script for Renovate:
 ## Links
 
 * <https://github.com/renovatebot/renovate>
+* <https://github.com/astral-sh/ruff>
