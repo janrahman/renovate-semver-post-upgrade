@@ -7,7 +7,7 @@ This tool is written for my dev team at work.
 ## Getting started
 
 ```sh
-python3 postupgrade_semver.py
+python3 semver_post_upgrade.py
 ```
 
 The script checks the content of the existing `semver.txt` and prepend a new semver or add the description below the version tag.
@@ -35,9 +35,9 @@ An example how to setup this script for Renovate:
 
 ```json
 {
-  "allowedPostUpgradeCommands": ["^python3 postupgrade_semver.py$"],
+  "allowedPostUpgradeCommands": ["^python3 semver_post_upgrade.py$"],
   "postUpgradeTasks": {
-    "commands": ["python3 postupgrade_semver.py"],
+    "commands": ["python3 semver_post_upgrade.py"],
     "fileFilters": ["semver.txt"],
     "executionMode": "branch"
   }
