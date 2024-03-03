@@ -54,3 +54,4 @@ An example how to setup this script for Renovate:
 
 * <https://github.com/renovatebot/renovate>
 * <https://github.com/astral-sh/ruff>
+* <https://semver.org/>
